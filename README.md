@@ -44,3 +44,7 @@ Contribuir para o consumo e a produção responsáveis, conforme a ODS 12, por m
 ## Público-alvo
 
 Pequenas instituições e organizações que precisam controlar seus materiais.
+
+## Revisão técnica
+
+O sistema foi desenvolvido com HTML, CSS e JavaScript, mantendo a separação entre estrutura, apresentação e funcionalidades. A revisão considera a organização do código, a validação dos dados e a facilidade de manutenção.
