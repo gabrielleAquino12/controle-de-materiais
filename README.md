@@ -18,3 +18,21 @@ ODS 12 – Consumo e Produção Responsáveis.
 ## Acessibilidade
 O sistema busca oferecer textos legíveis, bom contraste e botões identificáveis.# controle-de-materiais
 Sistema MVP para controle de materiais e movimentação de estoque
+## Funcionalidades do sistema
+
+- Cadastro de materiais e categorias.
+- Consulta e pesquisa do estoque.
+- Registro de entradas e saídas.
+- Controle de quantidade mínima.
+- Alertas de estoque baixo.
+- Histórico de movimentações.
+
+## Tecnologias utilizadas
+
+- HTML5
+- CSS3
+- JavaScript
+
+## Armazenamento
+
+Os dados são armazenados no navegador por meio do LocalStorage.
