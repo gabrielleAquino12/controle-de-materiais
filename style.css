@@ -1,0 +1,206 @@
+/* CONFIGURAÇÃO GERAL */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #F8F6FB;
+    color: #393044;
+}
+
+/* CABEÇALHO LILÁS */
+header {
+    background-color: #B69AD8;
+    color: white;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+header h1 {
+    margin-bottom: 8px;
+    font-size: 28px;
+}
+
+/* MENU ROXO */
+nav {
+    background-color: #76549A;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 12px;
+    gap: 10px;
+}
+
+button {
+    background-color: #A17BC5;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+nav button {
+    background-color: transparent;
+}
+
+nav button:hover,
+button:hover {
+    background-color: #9670B8;
+}
+
+/* CONTEÚDO PRINCIPAL */
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+/* TELAS */
+.tela {
+    display: none;
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(80, 50, 110, 0.08);
+}
+
+.tela.ativa {
+    display: block;
+}
+
+/* TÍTULOS */
+h2 {
+    color: #76549A;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #76549A;
+    margin-bottom: 12px;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 12px;
+}
+
+/* PAINÉIS */
+.painel,
+.ods {
+    background-color: #F0E8F8;
+    padding: 20px;
+    border-radius: 9px;
+    margin-top: 25px;
+}
+
+.ods {
+    border-left: 5px solid #A17BC5;
+}
+
+/* FORMULÁRIOS */
+form {
+    max-width: 550px;
+}
+
+label {
+    display: block;
+    margin: 15px 0 7px;
+    font-weight: bold;
+    color: #59466E;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #D4C4E5;
+    border-radius: 6px;
+    font-size: 15px;
+    background-color: #FEFCFF;
+    color: #393044;
+}
+
+input:focus,
+select:focus {
+    outline: 3px solid #D9C3F0;
+    border-color: #9670B8;
+}
+
+/* BOTÕES DOS FORMULÁRIOS */
+form button {
+    margin-top: 20px;
+    background-color: #76549A;
+}
+
+form button:hover {
+    background-color: #5E3E80;
+}
+
+/* TABELA DE ESTOQUE */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border-bottom: 1px solid #E8E0EF;
+    padding: 13px;
+    text-align: left;
+}
+
+th {
+    background-color: #F0E8F8;
+    color: #76549A;
+}
+
+/* MENSAGENS */
+#vazio {
+    margin-top: 20px;
+    color: #897C94;
+}
+
+/* RODAPÉ */
+footer {
+    text-align: center;
+    padding: 25px;
+    color: #897C94;
+    font-size: 13px;
+}
+
+/* ACESSIBILIDADE */
+button:focus-visible {
+    outline: 3px solid #D9A441;
+    outline-offset: 3px;
+}
+
+/* RESPONSIVIDADE */
+@media (max-width: 600px) {
+
+    nav {
+        flex-direction: column;
+    }
+
+    nav button {
+        width: 100%;
+    }
+
+    .tela {
+        padding: 18px;
+    }
+
+    table {
+        font-size: 12px;
+    }
+
+    th,
+    td {
+        padding: 8px 5px;
+    }
+}
