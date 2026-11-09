@@ -36,3 +36,11 @@ Sistema MVP para controle de materiais e movimentação de estoque
 ## Armazenamento
 
 Os dados são armazenados no navegador por meio do LocalStorage.
+
+## Objetivo do projeto
+
+Contribuir para o consumo e a produção responsáveis, conforme a ODS 12, por meio do controle de materiais, evitando desperdícios e facilitando o acompanhamento do estoque.
+
+## Público-alvo
+
+Pequenas instituições e organizações que precisam controlar seus materiais.
